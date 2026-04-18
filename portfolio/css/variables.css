@@ -1,0 +1,43 @@
+/* variables.css — cyan/teal neon on dark theme */
+
+:root {
+  /* Dark base */
+  --bg:              #0a0e17;
+  --bg-2:            #0f1420;
+  --surface:         #131929;
+  --surface-2:       #1a2236;
+  --border:          rgba(0, 229, 255, 0.1);
+  --border-strong:   rgba(0, 229, 255, 0.25);
+
+  /* Text */
+  --text:            #e8eaf2;
+  --muted:           #8892a4;
+  --subtle:          #4a5568;
+
+  /* Accent — cyan/teal neon */
+  --accent:          #00e5ff;
+  --accent-dim:      rgba(0, 229, 255, 0.12);
+  --accent-glow:     rgba(0, 229, 255, 0.25);
+  --accent-2:        #00bcd4;
+
+  /* Tag / badge */
+  --tag-bg:          rgba(0, 229, 255, 0.08);
+  --tag-text:        #00e5ff;
+  --tag-border:      rgba(0, 229, 255, 0.2);
+
+  /* Layout */
+  --nav-h:           65px;
+  --max-w:           1100px;
+
+  /* Typography */
+  --font-display:    'Space Grotesk', sans-serif;
+  --font-body:       'Space Grotesk', sans-serif;
+  --font-mono:       'Space Mono', monospace;
+
+  /* Radius */
+  --radius-sm:       4px;
+  --radius-md:       8px;
+  --radius-lg:       12px;
+  --radius-xl:       16px;
+  --radius-pill:     100px;
+}
